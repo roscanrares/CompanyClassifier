@@ -1,2 +1,1 @@
-# Veridion-CompanyClassifier
-Veridion Internship appllication project
+# [Please read my documentation](https://github.com/roscanrares/Veridion-CompanyClassifier/blob/main/Veridion_Internship.pdf)
