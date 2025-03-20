@@ -50,3 +50,8 @@ Asta presupun ca este din cauza preprocesarii care a fost destul de indulgenta s
 Pentru verificarea cu embeddings am incercat mai multe variante, ori foloseam doar descrierea, ori foloseam si tag-ruile sau sector, etc. incercand toate combinatiile posibile. De asemenea am incercat sa integrez sectorul categoria si tag-urile intr-o forma cat mai naturala pentru a avea sens (descriere + 'firma lucreaza in' 'scetor' 'si are urmatoarele atribute' 'bussiness-tags').
 
 Astfel in final am folosit un FAISS pe care l-am validat ulterior cu embeddings. Am incercat sa ponderez verificarea (pentru a avea posibilitatea de 'fine-tunning'), dar in continuare aveam raspunsuri foarte diferite (daca luam in calcul si 'bussiness_tags' se schimbau complet rezultatele). si nici nu am avut posibilitatea de a gasi 'formula perfecta' pentru ca nu aveam putere computationala. Mentionez ca am incercat mai multe variante, am preferat modele de tip NLI pentru validare, dar fiecare imi dadea un raspuns complet diferit. 
+
+
+## Verificare
+
+Verificarea a fost facuta manual 'dupa ochi', adica incercat sa ma uit aleator pe raspunsuri, eventual la modificari de ponderi/model observam aceleasi 20-50 de companii (atat pentru prerpocesare cat si pentru labe-uri)
